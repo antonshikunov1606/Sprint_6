@@ -15,7 +15,7 @@ class TestImportantQuestions:
         home_page.wait_for_load_home_page()
         home_page.scroll_to_important_questions()
         home_page.wait_for_load_question(button_locator)
-        home_page.click_button(button_locator)
+        home_page.click_question(button_locator)
         home_page.wait_for_load_info(text_locator)
         actual_result = home_page.get_info_text(text_locator)
         assert actual_result == expected_text, f'Ожидаемый текст: "{expected_text}", но получили: "{actual_result}".'

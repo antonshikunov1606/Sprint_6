@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 class OrderPageLocators:
     BUTTON_LOGO_SCOOTER = [By.XPATH, './/a[@class="Header_LogoScooter__3lsAR"]']
     BUTTON_LOGO_YANDEX = [By.XPATH, './/a[@class="Header_LogoYandex__3TSOI"]']
+    PANEL_ORDER = [By.XPATH, './/div[@class="Order_Content__bmtHS"]']
     INPUT_FIRST_NAME_FIELD = [By.XPATH, './/input[@placeholder="* Имя"]']
     INPUT_SECOND_NAME_FIELD = [By.XPATH, './/input[@placeholder="* Фамилия"]']
     INPUT_ADDRESS_FIELD = [By.XPATH, './/input[@placeholder="* Адрес: куда привезти заказ"]']

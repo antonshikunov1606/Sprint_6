@@ -5,6 +5,7 @@ from locators.order_page_locators import OrderPageLocators
 class URLCollection:
     SCOOTER_HOME_PAGE = 'https://qa-scooter.praktikum-services.ru/'
     YANDEX_HOME_PAGE = 'https://dzen.ru/?yredirect=true'
+    SCOOTER_ORDER_PAGE = 'https://qa-scooter.praktikum-services.ru/order'
 
 
 test_data_for_test_important_questions = [
